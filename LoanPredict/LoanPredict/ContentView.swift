@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var homeViewModel = HomeViewModel()
+    @StateObject var authViewModel = AuthentificationViewModel()
+    
     @State var isLoggedIn = false
     
     var body: some View {
         if isLoggedIn {
-            HomeView(viewModel: homeViewModel)
+            MainView(viewModel: homeViewModel, userID: authViewModel.authenticatedUUID)
         } else {
-            LoginView(isLoggedIn: $isLoggedIn)
+            LoginView(authViewModel: authViewModel, isLoggedIn: $isLoggedIn)
         }
     }
 }

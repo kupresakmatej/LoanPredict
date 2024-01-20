@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-    @StateObject var authViewModel = AuthentificationViewModel()
+    @ObservedObject var authViewModel: AuthentificationViewModel
     
     @Binding var isLoggedIn: Bool
     
@@ -18,6 +18,10 @@ struct LoginView: View {
         NavigationView {
             ZStack {
                 VStack {
+                    Text("Loan predict")
+                        .font(.largeTitle)
+                        .bold()
+                    
                     InputBar(placeholder: "Email...", inputType: InputType.regular, input: $authViewModel.emailText)
                     
                     InputBar(placeholder: "Password...", inputType: InputType.password, input: $authViewModel.passwordText)
@@ -29,6 +33,7 @@ struct LoginView: View {
                                     switch result {
                                         case .success:
                                             isLoggedIn = true
+                                        
                                             print("User logged in successfully")
                                         case .failure(let error):
                                             showingFailedAuthAlert = true
@@ -60,4 +65,8 @@ struct LoginView: View {
             }
         }
     }
+}
+
+#Preview {
+    LoginView(authViewModel: AuthentificationViewModel(), isLoggedIn: .constant(false))
 }

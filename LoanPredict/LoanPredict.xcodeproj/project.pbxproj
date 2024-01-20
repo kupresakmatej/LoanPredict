@@ -29,6 +29,8 @@
 		C28700D32B59EB410011D491 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28700D22B59EB410011D491 /* HomeViewModel.swift */; };
 		C28700D62B59EBDC0011D491 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28700D52B59EBDC0011D491 /* RegisterView.swift */; };
 		C28700D82B59ECA50011D491 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28700D72B59ECA50011D491 /* RoundedButton.swift */; };
+		C299DC8D2B5AEE3900B9DAAE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299DC8C2B5AEE3900B9DAAE /* MainView.swift */; };
+		C299DC902B5AEF0400B9DAAE /* RecentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299DC8F2B5AEF0400B9DAAE /* RecentsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		C28700D22B59EB410011D491 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		C28700D52B59EBDC0011D491 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		C28700D72B59ECA50011D491 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		C299DC8C2B5AEE3900B9DAAE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C299DC8F2B5AEF0400B9DAAE /* RecentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		C21F37EA2B59DBC100AF9D53 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C299DC8E2B5AEEF700B9DAAE /* RecentsView */,
+				C299DC8B2B5AEE2D00B9DAAE /* MainView */,
 				C28700D42B59EBD20011D491 /* RegisterView */,
 				C28700CF2B59EB2C0011D491 /* HomeView */,
 				C28700C22B59E7BD0011D491 /* UI Elements */,
@@ -167,6 +173,22 @@
 				C28700D52B59EBDC0011D491 /* RegisterView.swift */,
 			);
 			path = RegisterView;
+			sourceTree = "<group>";
+		};
+		C299DC8B2B5AEE2D00B9DAAE /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				C299DC8C2B5AEE3900B9DAAE /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		C299DC8E2B5AEEF700B9DAAE /* RecentsView */ = {
+			isa = PBXGroup;
+			children = (
+				C299DC8F2B5AEF0400B9DAAE /* RecentsView.swift */,
+			);
+			path = RecentsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21F37DF2B59DA8300AF9D53 /* ContentView.swift in Sources */,
+				C299DC902B5AEF0400B9DAAE /* RecentsView.swift in Sources */,
+				C299DC8D2B5AEE3900B9DAAE /* MainView.swift in Sources */,
 				C28700D62B59EBDC0011D491 /* RegisterView.swift in Sources */,
 				C28700D32B59EB410011D491 /* HomeViewModel.swift in Sources */,
 				C21F37FC2B59E33200AF9D53 /* LoginView.swift in Sources */,

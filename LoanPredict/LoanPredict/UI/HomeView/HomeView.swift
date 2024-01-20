@@ -10,11 +10,40 @@ import SwiftUI
 struct HomeView: View {
     @ObservedObject var viewModel: HomeViewModel
     
+    var user: User
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            ZStack {
+                VStack {
+                    ZStack {
+                        Color.blue
+                            .ignoresSafeArea()
+                            .frame(width: .infinity, height: 75)
+                        
+                        HStack {
+                            Text("Hello, \(user.name)")
+                                .font(.title2)
+                                .padding()
+                            
+                            Spacer()
+                            
+                            Button {
+                                
+                            } label: {
+                                RoundedButton(width: 75, height: 25, buttonText: "Predict", buttonColor: Color.white)
+                                    .padding(25)
+                            }
+                        }
+                    }
+                    
+                    Spacer()
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    HomeView(viewModel: HomeViewModel())
+    HomeView(viewModel: HomeViewModel(), user: User(id: UUID(), name: "Matej Kupresak", email: "matej@gmail.com"))
 }
