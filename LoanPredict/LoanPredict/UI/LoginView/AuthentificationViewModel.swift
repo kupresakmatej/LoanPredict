@@ -48,7 +48,6 @@ extension AuthentificationViewModel {
                 return
             }
 
-            // User created successfully, update display name
             if let currentUser = Auth.auth().currentUser {
                 let changeRequest = currentUser.createProfileChangeRequest()
                 changeRequest.displayName = user.name

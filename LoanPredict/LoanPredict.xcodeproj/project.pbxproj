@@ -19,6 +19,9 @@
 		C21F37F72B59E07000AF9D53 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = C21F37F62B59E07000AF9D53 /* FirebaseAppCheck */; };
 		C21F37FC2B59E33200AF9D53 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F37FB2B59E33200AF9D53 /* LoginView.swift */; };
 		C21F37FE2B59E33D00AF9D53 /* AuthentificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F37FD2B59E33D00AF9D53 /* AuthentificationViewModel.swift */; };
+		C23672162B6810450001D7BC /* PredictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23672152B6810450001D7BC /* PredictView.swift */; };
+		C23672182B68104F0001D7BC /* PredictViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23672172B68104F0001D7BC /* PredictViewModel.swift */; };
+		C236721A2B6819370001D7BC /* LoanPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23672192B6819370001D7BC /* LoanPrediction.swift */; };
 		C28700C12B59E69B0011D491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28700C02B59E69B0011D491 /* AppDelegate.swift */; };
 		C28700C42B59E7CB0011D491 /* InputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28700C32B59E7CB0011D491 /* InputBar.swift */; };
 		C28700C72B59E8680011D491 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C28700C62B59E8680011D491 /* FirebaseAuth */; };
@@ -31,6 +34,9 @@
 		C28700D82B59ECA50011D491 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28700D72B59ECA50011D491 /* RoundedButton.swift */; };
 		C299DC8D2B5AEE3900B9DAAE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299DC8C2B5AEE3900B9DAAE /* MainView.swift */; };
 		C299DC902B5AEF0400B9DAAE /* RecentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299DC8F2B5AEF0400B9DAAE /* RecentsView.swift */; };
+		C2D4A2372B695B3700F8C7C3 /* AzureNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A2362B695B3700F8C7C3 /* AzureNetworking.swift */; };
+		C2D4A2392B69851E00F8C7C3 /* RecentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A2382B69851E00F8C7C3 /* RecentsViewModel.swift */; };
+		C2D4A23B2B69AA8000F8C7C3 /* PredictionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A23A2B69AA8000F8C7C3 /* PredictionCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,10 @@
 		C21F37EB2B59DF3A00AF9D53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C21F37FB2B59E33200AF9D53 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C21F37FD2B59E33D00AF9D53 /* AuthentificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationViewModel.swift; sourceTree = "<group>"; };
+		C23672152B6810450001D7BC /* PredictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictView.swift; sourceTree = "<group>"; };
+		C23672172B68104F0001D7BC /* PredictViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictViewModel.swift; sourceTree = "<group>"; };
+		C23672192B6819370001D7BC /* LoanPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanPrediction.swift; sourceTree = "<group>"; };
+		C236721B2B6844910001D7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C28700C02B59E69B0011D491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C28700C32B59E7CB0011D491 /* InputBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBar.swift; sourceTree = "<group>"; };
 		C28700CC2B59E9870011D491 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -51,6 +61,9 @@
 		C28700D72B59ECA50011D491 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		C299DC8C2B5AEE3900B9DAAE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C299DC8F2B5AEF0400B9DAAE /* RecentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsView.swift; sourceTree = "<group>"; };
+		C2D4A2362B695B3700F8C7C3 /* AzureNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureNetworking.swift; sourceTree = "<group>"; };
+		C2D4A2382B69851E00F8C7C3 /* RecentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsViewModel.swift; sourceTree = "<group>"; };
+		C2D4A23A2B69AA8000F8C7C3 /* PredictionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +105,8 @@
 		C21F37DB2B59DA8300AF9D53 /* LoanPredict */ = {
 			isa = PBXGroup;
 			children = (
+				C236721B2B6844910001D7BC /* Info.plist */,
+				C236720F2B680D560001D7BC /* Networking */,
 				C28700CE2B59E98C0011D491 /* Models */,
 				C21F37EA2B59DBC100AF9D53 /* UI */,
 				C21F37DC2B59DA8300AF9D53 /* LoanPredictApp.swift */,
@@ -115,6 +130,7 @@
 		C21F37EA2B59DBC100AF9D53 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C23672142B6810310001D7BC /* PredictView */,
 				C299DC8E2B5AEEF700B9DAAE /* RecentsView */,
 				C299DC8B2B5AEE2D00B9DAAE /* MainView */,
 				C28700D42B59EBD20011D491 /* RegisterView */,
@@ -134,11 +150,29 @@
 			path = LoginView;
 			sourceTree = "<group>";
 		};
+		C236720F2B680D560001D7BC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4A2362B695B3700F8C7C3 /* AzureNetworking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C23672142B6810310001D7BC /* PredictView */ = {
+			isa = PBXGroup;
+			children = (
+				C23672152B6810450001D7BC /* PredictView.swift */,
+				C23672172B68104F0001D7BC /* PredictViewModel.swift */,
+			);
+			path = PredictView;
+			sourceTree = "<group>";
+		};
 		C28700C22B59E7BD0011D491 /* UI Elements */ = {
 			isa = PBXGroup;
 			children = (
 				C28700C32B59E7CB0011D491 /* InputBar.swift */,
 				C28700D72B59ECA50011D491 /* RoundedButton.swift */,
+				C2D4A23A2B69AA8000F8C7C3 /* PredictionCard.swift */,
 			);
 			path = "UI Elements";
 			sourceTree = "<group>";
@@ -154,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				C28700CC2B59E9870011D491 /* User.swift */,
+				C23672192B6819370001D7BC /* LoanPrediction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				C299DC8F2B5AEF0400B9DAAE /* RecentsView.swift */,
+				C2D4A2382B69851E00F8C7C3 /* RecentsViewModel.swift */,
 			);
 			path = RecentsView;
 			sourceTree = "<group>";
@@ -276,14 +312,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21F37DF2B59DA8300AF9D53 /* ContentView.swift in Sources */,
+				C2D4A2372B695B3700F8C7C3 /* AzureNetworking.swift in Sources */,
 				C299DC902B5AEF0400B9DAAE /* RecentsView.swift in Sources */,
+				C23672162B6810450001D7BC /* PredictView.swift in Sources */,
+				C23672182B68104F0001D7BC /* PredictViewModel.swift in Sources */,
+				C2D4A2392B69851E00F8C7C3 /* RecentsViewModel.swift in Sources */,
 				C299DC8D2B5AEE3900B9DAAE /* MainView.swift in Sources */,
 				C28700D62B59EBDC0011D491 /* RegisterView.swift in Sources */,
 				C28700D32B59EB410011D491 /* HomeViewModel.swift in Sources */,
 				C21F37FC2B59E33200AF9D53 /* LoginView.swift in Sources */,
 				C21F37FE2B59E33D00AF9D53 /* AuthentificationViewModel.swift in Sources */,
 				C28700C12B59E69B0011D491 /* AppDelegate.swift in Sources */,
+				C2D4A23B2B69AA8000F8C7C3 /* PredictionCard.swift in Sources */,
 				C28700D82B59ECA50011D491 /* RoundedButton.swift in Sources */,
+				C236721A2B6819370001D7BC /* LoanPrediction.swift in Sources */,
 				C28700C42B59E7CB0011D491 /* InputBar.swift in Sources */,
 				C28700D12B59EB380011D491 /* HomeView.swift in Sources */,
 				C21F37DD2B59DA8300AF9D53 /* LoanPredictApp.swift in Sources */,
@@ -423,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LoanPredict/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoanPredict/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LoanPredict/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoanPredict/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
